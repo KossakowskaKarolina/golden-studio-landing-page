@@ -21,22 +21,27 @@ section {
     text-transform: uppercase;
     font-weight: bold;
     color: #222222;
+    font-family: 'Lato', sans-serif;
 }
 
 .section-subtitle {
-    font-size: 14px;
+    font-size: 18px;
     color: #777777;
+    font-family: 'Hina Mincho', serif;
+    font-style: italic;
 }
 
 .box-title {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
     color: #777777;
+    font-family: 'Hina Mincho', serif;
 }
 
 
@@ -73,6 +78,7 @@ p {
         margin-top: 0;
         margin-left: 7px;
         z-index: 1;
+        font-family: 'Allison', cursive;
     }
         
     ul {
@@ -84,6 +90,7 @@ p {
             font-variant: small-caps;
             text-transform: uppercase;
             font-size: 15px;
+            font-family: 'Lato', sans-serif;
             margin-right: 35px;
         }
     }
@@ -97,6 +104,8 @@ p {
     .header-subtitle {
         font-size: 38px;
         margin-bottom: 20px;
+        font-family: 'Hina Mincho', serif;
+        font-style: italic;
     }
 
     .header-title {
@@ -104,6 +113,7 @@ p {
         font-variant: small-caps;
         margin-top: 0;
         margin-bottom: 70px;
+        font-family: 'Lato', sans-serif;
     }
 
     .btn {
@@ -175,6 +185,7 @@ p {
         
         p {
             margin-top: 0;
+            font-style: italic;
         }
     }
 }
