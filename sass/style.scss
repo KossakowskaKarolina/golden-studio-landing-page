@@ -44,6 +44,7 @@ p {
 
 .header {
     height: 700px;
+    width: 100%;
     background-image: url('https://i.ibb.co/k8tTGYp/background-image.jpg');
     background-size: cover; 
     background-attachment: fixed;
@@ -51,11 +52,13 @@ p {
     position: relative;
     &::before {
         position: absolute;
+        top: 0;
+        left: 0;
         content: '';
         height: 100%;
         width: 100%;
         background: black;
-        opacity: 0.3;
+        opacity: 0.4;
     }
  }
 
@@ -89,6 +92,7 @@ p {
 .header-inner {
     margin-top: 200px;
     color: white;
+    position: relative;
     
     .header-subtitle {
         font-size: 38px;
